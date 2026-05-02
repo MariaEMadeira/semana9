@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Ecommerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Título da página -->
+    <h1>Mini Ecommerce</h1>
+
+    <!-- Área de controles (busca e filtros) -->
+    <div class="controles">
+        <input type="text" id="search" placeholder="Buscar produto...">
+        
+        <select id="category">
+            <option value="Todas">Todas</option>
+        </select>
+        
+        <button id="btnRender">Renderizar</button>
+    </div>
+
+    <!-- Área onde aparece os detalhes do produto -->
+    <div id="product-details"></div>
+
+    <!-- Área onde aparecem os cards dos produtos -->
+    <div id="product-list"></div>
+
+    <!-- Importando o JavaScript no final -->
+    <script src="script.js"></script>
+</body>
+</html>
